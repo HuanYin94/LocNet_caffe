@@ -4,7 +4,7 @@
 
 My implementation of LocNet is based on `caffe`, and this project contains the caffe models of LocNet network.
 
-In the `models` folder, for example, `kitti_delta_range` means that this model is used in KITTI dataset with Velodyne HDL-64E, with the \Delta r representations.
+In the `models` folder, for example, `kitti_delta_range` means that this model is used in KITTI dataset with Velodyne HDL-64E, with the Δ-r representations.
 
 Please cite:
 
