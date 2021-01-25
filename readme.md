@@ -2,11 +2,12 @@
 
 <img src="https://github.com/ZJUYH/LocNet_caffe/blob/master/image/network.png" width= 1000>
 
-My implementation of LocNet is based on `caffe`, and this project contains the caffe models of LocNet network.
+The implementation of LocNet back-end is based on `caffe`, and this page contains the caffe models of LocNet network.
 
 In the `models` folder, for example, `kitti_delta_range` means that this model is used in KITTI dataset with Velodyne HDL-64E, with the Δ-r representations.
+The input of the network is the image-like representations of LiDAR data, which can be generated using [LocNet_frontend](https://github.com/ZJUYH/LocNet_frontend).
 
-Please cite:
+If you think this page is little useful for your work, please cite:
 
 	@article{yin20193d,
 	  title={3D LiDAR-Based Global Localization Using Siamese Neural Network},
@@ -21,6 +22,4 @@ or other related conferences:
 	title={LocNet: Global localization in 3D point clouds for mobile vehicles}
 	title={Efficient 3D LIDAR based loop closing using deep neural network}
 
-The input of the network is the image-like representations of LiDAR data. I will open the front-end of LocNet in the future, which transforms the 3D LiDAR point cloud to 2D rotational-invariant features.
-
-If you have any questions, please contact: [Huan Yin](https://yinhuan.site/) `zjuyinhuan@gmail.com`.
+If you have any questions, feel free to contact: [Huan Yin](https://yinhuan.site/) `zjuyinhuan@gmail.com`.
