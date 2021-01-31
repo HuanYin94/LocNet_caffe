@@ -7,7 +7,7 @@ The implementation of LocNet back-end is based on `caffe`, and this page contain
 In the `models` folder, for example, `kitti_delta_range` means that this model is used in KITTI dataset with Velodyne HDL-64E, with the Δ-r representations.
 The input of the network is the image-like representations of LiDAR data, which can be generated using [LocNet_frontend](https://github.com/ZJUYH/LocNet_frontend).
 
-If you think this page is little useful for your work, please cite:
+If you use our implementation in your work, please cite the following paper:
 
 	@article{yin20193d,
 	  title={3D LiDAR-Based Global Localization Using Siamese Neural Network},
