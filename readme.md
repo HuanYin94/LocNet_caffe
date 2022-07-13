@@ -21,5 +21,3 @@ or other related conferences:
 
 	title={LocNet: Global localization in 3D point clouds for mobile vehicles}
 	title={Efficient 3D LIDAR based loop closing using deep neural network}
-
-If you have any questions, feel free to contact: [Huan Yin](https://yinhuan.site/) `zjuyinhuan@gmail.com`.
